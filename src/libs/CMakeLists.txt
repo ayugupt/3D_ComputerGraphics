@@ -1,0 +1,1 @@
+add_library(libs tinyexpr.c tinyexpr.h)

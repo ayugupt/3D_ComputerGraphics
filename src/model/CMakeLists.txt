@@ -1,0 +1,1 @@
+add_library(modellib ObjModel.cpp ObjModel.h ObjModelStructs.h)
