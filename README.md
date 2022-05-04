@@ -2,7 +2,7 @@
 
 This application allows the user to load .obj 3D model files and view them on their screen. The users can change the camera position along the x,y
  and z coordinates to get different viewing angles. The center of mass of the model is situated at the origin and the camera is always pointed towards 
- the origin. The user can also input a function of x and y to get a Non-Linear perspective. 
+ the origin. The user can also input a function of x and y to get a Non-Linear projection. 
  
  Linear Algebra and perspective projection were used to get the viewport coordinates of the model. First the global coordinates of the model are 
  converted into the camera coordinate system using a transformation matrix. Then the concept of similar triangles are applied to get the cooridnates 
