@@ -21,3 +21,13 @@ This application allows the user to load .obj 3D model files and view them on th
  ![cylinder](https://raw.githubusercontent.com/ayugupt/3D_ComputerGraphics/master/images/cylinder.png)
  
  Linear view of a cylinder
+ 
+ # Build Instructions
+
+Make sure you have the gtkmm-3.0 libraries and header files installed. If not follow the instructions [here](https://www.gtkmm.org/en/download.html) 
+
+1. Go to the root directory of the project
+2. mkdir build && cd build
+3. cmake ..
+4. Run the build command specific to your platform. For unix systems it will be: make
+5. ./dit
